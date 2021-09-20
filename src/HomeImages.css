@@ -1,0 +1,16 @@
+.homeImages{
+    overflow: hidden;
+    margin:20px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 18px -9px rgba(0,0,0,0.75);
+    transition: transform 100ms ease-in;
+    cursor:pointer;
+}
+.homeImages:hover{
+    transform:scale(1.10);
+}
+.homeImages > img {
+    object-fit: contain;
+    width:50vw;
+   
+}

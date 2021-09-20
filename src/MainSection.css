@@ -1,0 +1,44 @@
+.homeSection{
+    display: flex;
+}
+.mainSectionSearch{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin:20px;
+    border: 1px solid lightgray;
+    border-radius: 999px;
+    width:80%;
+    height:50px;
+    padding:20px;
+    background-color: #f7f7f7;;
+}
+.mainSectionSearch__search{
+    display:flex;
+    align-items: center;
+    max-width:fit-content;  
+    padding:20px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 999px;;
+}
+.mainSectionSearch__search > input{
+    border:none;
+    outline-width: 0;
+    width: 25vw;
+    
+}
+.mainSectionSearch__dateRange{
+    padding:20px;
+    display:flex;
+    align-items: center;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 999px;
+}
+.mainSectionSearch__dateRange > input{
+    border:none;
+    outline-width: 0;
+    width: 25vw;
+    
+}
